@@ -1,0 +1,84 @@
+body {
+  margin: 30px;
+}
+
+a {
+  border: 1px solid #060613;
+  color: #060613;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.active-menu,
+.menubar a:hover {
+  background-color: #060613;
+  color: white;
+}
+
+.error {
+  color: red;
+}
+
+.add-skill {
+  display: none;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin-top: -50px;
+  margin-bottom: 60px;
+}
+
+.skill-name {
+  display: block;
+  transform-origin: top left;
+  transform: rotate(-90deg) translate(-100%);
+  margin-top: -100%;
+  white-space: nowrap;
+}
+
+.skill-list {
+  margin-top: 30px;
+}
+
+.addskill select, 
+.addskill input, 
+.addskill button {
+  height: 30px;
+  border: 1px solid #060613;
+  outline: none;
+}
+
+.addskill button:hover {
+  background-color: #ccd9ff;
+}
+
+.skill-list table {
+  width: 360px;
+}
+
+.skill-list tr {
+  height: 30px;
+}
+
+.delete-skill {
+  border: none;
+  color: #990000;
+}
+
+.item {
+  display: flex;
+  padding: 2px 0;
+}
+
+.item .number {
+  border: 1px solid black;
+  color: black;
+  width: 40px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+}
